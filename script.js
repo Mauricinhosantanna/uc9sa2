@@ -1,0 +1,1 @@
+alert("você ganhou um iphone entre na pagina e informe seu cartão")

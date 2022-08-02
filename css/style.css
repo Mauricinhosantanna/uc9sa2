@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: yellow;
+    
+}
+
+.container-grid{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+color: black;
+text-decoration: none;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+font: size 10px;
+}
+.menu{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner{
+    height: 900px;
+    background-image:url(../img/banner.png);
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.texto-banner{
+    color: white;
+}
+.posicao-texto{
+    justify-content: flex-end;
+}
+
+.texto-banner h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 80 pix;
+    font-weight: bold;
+}
+.texto-banner{
+    width: 495px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+font: size 30px;
+}
+.texto-banner a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+.texto-banner p{
+    margin-bottom: 50px;
+}
+.secao-jogos{
+    background-color: black;
+}
+.jogos{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.jogos img{
+    width: 150px;
+}
+.texto-sobre{
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-widht: 1200px) {
+    .container-grid {
+        width: 90%;
+    }
+}
+.menu a{
+    font-size: 16px;
+}
+.logo{
+    width: 100px;
+}
+@media screen and (max-widht: 768px) {
+    h1{
+        color: blue;
+    }
+}
